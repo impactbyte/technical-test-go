@@ -5,14 +5,14 @@ Buatlah sebuah **Web Service API** menggunakan framework [Go](https://golang.org
 Web Service API yang dibuat adalah berupa **data order suatu produk**.
 Setiap **order** dapat melakukan order **lebih dari 1 item**.
 
-Order memiliki properti sebagai berikut
+**Order** memiliki properti sebagai berikut:
 
 - OrderID
 - CustomerName
 - OrderedAt
 - Items
 
-Item memiliki properti sebagai berikut
+**Item** memiliki properti sebagai berikut:
 
 - LineItemID
 - ItemCode
@@ -20,7 +20,7 @@ Item memiliki properti sebagai berikut
 - Quantity
 - OrderID
 
-Endpoint yang dibutuhkan adalah
+**Endpoint** yang dibutuhkan adalah:
 
 - Create Order
 - Get All Order
